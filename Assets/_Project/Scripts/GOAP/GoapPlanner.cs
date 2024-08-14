@@ -77,7 +77,7 @@ public class GoapPlanner : IGoapPlanner {
             }
         }
         
-        return false;
+        return parent.Leaves.Count > 0;
     }
 }
 
